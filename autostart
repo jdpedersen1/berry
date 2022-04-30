@@ -1,0 +1,47 @@
+#!/bin/bash
+
+       #---------/   ######\\     ##########    #######\\       #######\\   ##      ##   /-------------
+      #---------/   #########    ##########    ##########      ##########    ##    ##   /-------------
+     #---------/   ##     ##    ##            ##      ##      ##      ##      ##  ##   /-------------
+    #-----------  #######// -- ##### ------- ########// ---- ########// ------ #### ---------------------------------------------------
+   #-----------  ##      \\ - ## ---------- ##   ## ------- ##   ## ----------- ## ---------------------------------------------------
+  #---------/   ##       ##  ##            ##     ##       ##     ##           ##   /-------------
+ #---------/   ###########  ###########   ##       ##     ##       ##         ##   /-------------
+#---------/   #########//  ###########   ##         ##   ##         ##       ##   /------------- By Jake@Linux
+
+
+###   STARTUP APPLICATIONS   ###
+
+sxhkd -c $HOME/.config/berry/sxhkdrc &
+xwallpaper --zoom $HOME/Media/Pictures/Wallpapers/keys.jpg &
+picom --experimental-backend &
+polybar -c /home/jake/.config/berry/polybar_config mainbar-berry &
+
+
+###   BORDERS   ###
+
+berryc border_width         5
+berryc inner_border_width   3
+berryc title_height         20
+berryc edge_gap             40 10 10 10 
+
+
+###  DECORATIONS   ###
+
+berryc focus_color         007687
+berryc unfocus_color       b8b8b8
+berryc inner_focus_color   222222
+berryc inner_unfocus_color 222222
+berryc text_focus_color    007687
+berryc text_unfocus_color  eeeeee
+berryc decorate_new        "false"
+
+
+###  BASIC SETTINGS   ### 
+
+berryc smart_space         "true"
+berryc smart_place         "true"
+berryc draw_text           "true"
+berryc edge_lock           "true"
+berryc set_font            "Hermit-bold-18"
+

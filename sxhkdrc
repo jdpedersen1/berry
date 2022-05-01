@@ -6,7 +6,6 @@ alt + shift + Return
 alt + shift + d
 	dmenu_run -p Launch: -fn Hermit:bold -l 5 -g 5 -nb '#222222' -sf '#181818' -sb '#007687' -nf '#b8b8b8'
 
-
 # make sxhkd reload its configuration files:
 alt + Escape
 	pkill -USR1 -x sxhkd
@@ -60,31 +59,8 @@ alt + shift + c
 ~button1
     berryc pointer_focus
 
-alt + shift + a 
-    firefox && ./.local/scripts/truefull.sh
-
-alt + shift + b 
-    brave-browser-stable;
-
-alt + shift + t
-    ./.local/scripts/berry/truefull.sh
-
-alt + shift + n
-    ./.local/scripts/berry/northwest.sh
-
-alt + r
-    ./.local/scripts/berry/simplescreenrecorder.sh
-
-alt + shift + v
-    vmach.sh
-
 alt + shift + w
     windows.sh
 
-alt + shift + y
-    ytsubs.sh
 alt + shift + i
     vsp2
-
-alt + shift + e
-    edit_configs.sh

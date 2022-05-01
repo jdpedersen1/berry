@@ -13,9 +13,9 @@
 ###   STARTUP APPLICATIONS   ###
 
 sxhkd -c $HOME/.config/berry/sxhkdrc &
-xwallpaper --zoom $HOME/Media/Pictures/Wallpapers/keys.jpg &
+xwallpaper --zoom $HOME/.config/berry/keys.jpg &
 picom --experimental-backend &
-polybar -c /home/jake/.config/berry/polybar_config mainbar-berry &
+polybar -c $HOME/.config/berry/polybar_config mainbar-berry &
 
 
 ###   BORDERS   ###

@@ -344,8 +344,7 @@ label-separator-foreground = #ffb52a
 
 [module/pacman-updates]
 type = custom/script
-;exec = pacman -Qu | wc -l
-exec = xbps-install -nuM | wc -l
+exec = pacman -Qu | wc -l
 interval = 1000
 label = " Repo: %output% "
 label-foreground = ${colors.foreground}

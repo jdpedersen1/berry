@@ -54,7 +54,7 @@ alt + c
     berryc window_center
     
 alt + shift + c
-    ./.local/scripts/dmenu/herbst-logout.sh
+    herbst-logout.sh
 
 ~button1
     berryc pointer_focus
